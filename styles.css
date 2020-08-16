@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .clock {
@@ -17,6 +18,7 @@ body {
     border-radius: 50%;
     background-color: rgba(225, 225, 225, .7);
     position: relative;
+    margin: 18px;
 }
 
 .clock .number {

@@ -17,3 +17,5 @@ function moveclock() {
 function handleClock(element, ratio) {
     element.style.setProperty('--rotation', (ratio * 360))
 }
+
+moveclock()
